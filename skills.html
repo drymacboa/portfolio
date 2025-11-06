@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projects - Your Name</title>
+    <title>Skills - Your Name</title>
     <link href="dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,12 +36,12 @@
             </a>
           </li>
           <li>
-            <a href="projects.html" class="text-indigo-400 font-semibold">
+            <a href="projects.html" class="hover:text-indigo-400 transition">
               Projects
             </a>
           </li>
           <li>
-            <a href="skills.html" class="hover:text-indigo-400 transition">
+            <a href="skills.html" class="text-indigo-400 font-semibold">
               Skills
             </a>
           </li>
@@ -83,12 +83,14 @@
             <a href="about.html" class="block hover:text-indigo-400">About</a>
           </li>
           <li>
-            <a href="projects.html" class="block text-indigo-400 font-semibold">
+            <a href="projects.html" class="block hover:text-indigo-400">
               Projects
             </a>
           </li>
           <li>
-            <a href="skills.html" class="block hover:text-indigo-400">Skills</a>
+            <a href="skills.html" class="block text-indigo-400 font-semibold">
+              Skills
+            </a>
           </li>
           <li>
             <a href="resume.html" class="block hover:text-indigo-400">Resume</a>
@@ -102,67 +104,32 @@
       </div>
     </nav>
 
-    <!-- Projects Section -->
-    <main class="flex-grow container mx-auto px-6 py-20 max-w-5xl">
-      <h1 class="text-4xl font-extrabold mb-10 text-center">My Projects</h1>
-
-      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- Project Card Example -->
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 1
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
+    <!-- Skills Section -->
+    <main class="flex-grow container mx-auto px-6 py-20 max-w-4xl">
+      <h1 class="text-4xl font-extrabold mb-10 text-center">Skills</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-2xl font-semibold mb-4 text-indigo-400">Frontend</h2>
+          <ul class="list-disc list-inside text-gray-300 space-y-2">
+            <li>HTML5 & CSS3 (Tailwind CSS)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive & Mobile-first Design</li>
+            <li>Accessibility (a11y) best practices</li>
+            <li>Version Control (Git & GitHub)</li>
+          </ul>
         </div>
-
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 2
+        <div>
+          <h2 class="text-2xl font-semibold mb-4 text-indigo-400">
+            Backend & Tools
           </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
+          <ul class="list-disc list-inside text-gray-300 space-y-2">
+            <li>Node.js & npm</li>
+            <li>REST APIs</li>
+            <li>Basic understanding of databases (SQL, NoSQL)</li>
+            <li>Terminal & Command Line</li>
+            <li>Debugging & Testing</li>
+          </ul>
         </div>
-
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 3
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
-
-        <!-- Add more project cards as needed -->
       </div>
     </main>
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projects - Your Name</title>
+    <title>Resume - Your Name</title>
     <link href="dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,7 +36,7 @@
             </a>
           </li>
           <li>
-            <a href="projects.html" class="text-indigo-400 font-semibold">
+            <a href="projects.html" class="hover:text-indigo-400 transition">
               Projects
             </a>
           </li>
@@ -46,7 +46,7 @@
             </a>
           </li>
           <li>
-            <a href="resume.html" class="hover:text-indigo-400 transition">
+            <a href="resume.html" class="text-indigo-400 font-semibold">
               Resume
             </a>
           </li>
@@ -83,7 +83,7 @@
             <a href="about.html" class="block hover:text-indigo-400">About</a>
           </li>
           <li>
-            <a href="projects.html" class="block text-indigo-400 font-semibold">
+            <a href="projects.html" class="block hover:text-indigo-400">
               Projects
             </a>
           </li>
@@ -91,7 +91,9 @@
             <a href="skills.html" class="block hover:text-indigo-400">Skills</a>
           </li>
           <li>
-            <a href="resume.html" class="block hover:text-indigo-400">Resume</a>
+            <a href="resume.html" class="block text-indigo-400 font-semibold">
+              Resume
+            </a>
           </li>
           <li>
             <a href="contact.html" class="block hover:text-indigo-400">
@@ -102,68 +104,33 @@
       </div>
     </nav>
 
-    <!-- Projects Section -->
-    <main class="flex-grow container mx-auto px-6 py-20 max-w-5xl">
-      <h1 class="text-4xl font-extrabold mb-10 text-center">My Projects</h1>
+    <!-- Resume Section -->
+    <main class="flex-grow container mx-auto px-6 py-20 max-w-4xl">
+      <h1 class="text-4xl font-extrabold mb-10 text-center">Resume</h1>
 
-      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- Project Card Example -->
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 1
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
+      <section class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-400">Education</h2>
+        <div class="space-y-4 text-gray-300">
+          <div>
+            <h3 class="text-xl font-semibold">Bachelor of Computer Science</h3>
+            <p class="italic">University Name — 2019 - 2023</p>
+            <p>
+              Focused on software development, cybersecurity, and networking.
+            </p>
+          </div>
+          <!-- Add more education entries as needed -->
         </div>
+      </section>
 
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 2
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
-
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 3
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
-
-        <!-- Add more project cards as needed -->
-      </div>
+      <section class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-400">Skills</h2>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Tailwind CSS</li>
+          <li>Git & GitHub</li>
+          <li>Basic Node.js & APIs</li>
+        </ul>
+      </section>
     </main>
 
     <!-- Footer -->

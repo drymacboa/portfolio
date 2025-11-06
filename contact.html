@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projects - Your Name</title>
+    <title>Contact - Veronika Kobets</title>
     <link href="dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,7 @@
       <div
         class="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="index.html" class="text-2xl font-bold text-indigo-400">
-          Your Name
+          Veronika Kobets
         </a>
         <ul class="hidden md:flex space-x-8 text-gray-300">
           <li>
@@ -36,7 +36,7 @@
             </a>
           </li>
           <li>
-            <a href="projects.html" class="text-indigo-400 font-semibold">
+            <a href="projects.html" class="hover:text-indigo-400 transition">
               Projects
             </a>
           </li>
@@ -51,7 +51,7 @@
             </a>
           </li>
           <li>
-            <a href="contact.html" class="hover:text-indigo-400 transition">
+            <a href="contact.html" class="text-indigo-400 font-semibold">
               Contact
             </a>
           </li>
@@ -83,7 +83,7 @@
             <a href="about.html" class="block hover:text-indigo-400">About</a>
           </li>
           <li>
-            <a href="projects.html" class="block text-indigo-400 font-semibold">
+            <a href="projects.html" class="block hover:text-indigo-400">
               Projects
             </a>
           </li>
@@ -94,7 +94,7 @@
             <a href="resume.html" class="block hover:text-indigo-400">Resume</a>
           </li>
           <li>
-            <a href="contact.html" class="block hover:text-indigo-400">
+            <a href="contact.html" class="block text-indigo-400 font-semibold">
               Contact
             </a>
           </li>
@@ -102,67 +102,66 @@
       </div>
     </nav>
 
-    <!-- Projects Section -->
-    <main class="flex-grow container mx-auto px-6 py-20 max-w-5xl">
-      <h1 class="text-4xl font-extrabold mb-10 text-center">My Projects</h1>
+    <!-- Contact Section -->
+    <main class="flex-grow container mx-auto px-6 py-20 max-w-lg">
+      <h1 class="text-4xl font-extrabold mb-10 text-center">Get in Touch</h1>
 
-      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- Project Card Example -->
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 1
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
+      <form
+        class="bg-gray-800 rounded-lg p-8 shadow-lg"
+        action="https://formspree.io/f/mblpnqgz"
+        method="POST">
+        <input type="hidden" name="_replyto" value="drymacboa@gmail.com" />
+
+        <label class="block mb-4">
+          <span class="text-gray-300">Name</span>
+          <input
+            type="text"
+            name="name"
+            required
+            class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 focus:border-indigo-400 focus:ring focus:ring-indigo-400 focus:ring-opacity-50" />
+        </label>
+
+        <label class="block mb-4">
+          <span class="text-gray-300">Email</span>
+          <input
+            type="email"
+            name="email"
+            required
+            class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 focus:border-indigo-400 focus:ring focus:ring-indigo-400 focus:ring-opacity-50" />
+        </label>
+
+        <label class="block mb-6">
+          <span class="text-gray-300">Message</span>
+          <textarea
+            name="message"
+            rows="5"
+            required
+            class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 focus:border-indigo-400 focus:ring focus:ring-indigo-400 focus:ring-opacity-50"></textarea>
+        </label>
+
+        <button
+          type="submit"
+          class="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 rounded-md transition">
+          Send Message
+        </button>
+      </form>
+
+      <div class="mt-10 text-center text-gray-400">
+        <p>
+          Email:
           <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
+            href="mailto:drymacboa@gmail.com"
+            class="text-indigo-400 hover:underline">
+            drymacboa@gmail.com
           </a>
-        </div>
-
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 2
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
+        </p>
+        <p>
+          Phone:
+          <a href="tel:+1234567890" class="text-indigo-400 hover:underline">
+            +48 575 032 986
           </a>
-        </div>
-
-        <div
-          class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-indigo-600 transition">
-          <h2 class="text-xl font-semibold mb-2 text-indigo-400">
-            Project Title 3
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Brief description of the project goes here. What technologies you
-            used, what it does.
-          </p>
-          <a
-            href="#"
-            class="text-indigo-400 hover:underline font-semibold"
-            target="_blank"
-            rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
-
-        <!-- Add more project cards as needed -->
+        </p>
+        <p>Location: Lodz, Poland</p>
       </div>
     </main>
 
